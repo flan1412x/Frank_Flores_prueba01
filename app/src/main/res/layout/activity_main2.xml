@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Prueba01-Activity2"
+        android:textColor="#713838"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_margin="32sp">
+
+        <TextView
+            android:id="@+id/textView_nombre"
+            android:layout_width="120sp"
+            android:text="nombre" />
+
+        <EditText
+            android:id="@+id/editText_nombre"
+            android:layout_gravity="fill_horizontal"
+            android:hint="editText_nombre"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView_apellido"
+            android:layout_width="120sp"
+            android:text="apellido" />
+
+        <EditText
+            android:id="@+id/editText_apellido"
+            android:layout_gravity="fill_horizontal"
+            android:hint="editText_apellido"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView_dividendo"
+            android:layout_width="120sp"
+            android:text="divisor" />
+
+        <EditText
+            android:id="@+id/editText_dividendo"
+            android:layout_gravity="fill_horizontal"
+            android:hint="editText_dividendo"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView_divisor"
+            android:layout_width="120sp"
+            android:text="dividendo" />
+
+        <EditText
+            android:id="@+id/editText_divisor"
+            android:layout_gravity="fill_horizontal"
+            android:hint="editText_divisor"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView_numero"
+            android:layout_width="120sp"
+            android:text="ParteEntera" />
+
+        <EditText
+            android:id="@+id/editText_numero"
+            android:layout_gravity="fill_horizontal"
+            android:hint="editText_numero"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView_residuo"
+            android:layout_width="120sp"
+            android:text="Residuo" />
+
+        <EditText
+            android:id="@+id/editText_residuo"
+            android:layout_gravity="fill_horizontal"
+            android:hint="editText_residuo"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView_NumInvertido"
+            android:layout_width="120sp"
+            android:text="NumInvertido" />
+
+        <EditText
+            android:id="@+id/editText_NumInvertido"
+            android:layout_gravity="fill_horizontal"
+            android:hint="editText_NumInvertido"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button_siguiente"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Siguiente" />
+
+    <Button
+        android:id="@+id/button_cerrar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cerrar" />
+
+</LinearLayout>
