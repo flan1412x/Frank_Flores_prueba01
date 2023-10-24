@@ -44,4 +44,9 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("Residuo: " + residuo);
 
     }
+
+    public  static  void NumInvertido(){
+
+
+    }
 }

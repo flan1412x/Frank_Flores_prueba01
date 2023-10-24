@@ -29,11 +29,13 @@
             android:text="Nombre:" />
 
         <EditText
+            android:editable="false"
             android:id="@+id/editText_nombre"
             android:layout_gravity="fill_horizontal"
             android:hint="nombre"
             android:minHeight="48dp"
-            android:text="Frank" />
+            android:text="Frank"
+            />
 
         <TextView
             android:id="@+id/textView_apellido"
@@ -41,11 +43,13 @@
             android:text="Apellido:" />
 
         <EditText
+            android:inputType="none"
             android:id="@+id/editText_apellido"
             android:layout_gravity="fill_horizontal"
             android:hint="apellido"
             android:minHeight="48dp"
-            android:text="Flores" />
+            android:text="Flores"
+            />
 
         <TextView
             android:id="@+id/textView_dividendo"

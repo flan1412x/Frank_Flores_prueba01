@@ -68,29 +68,7 @@
             android:inputType="number"
             android:minHeight="48dp" />
 
-        <TextView
-            android:id="@+id/textView_numero"
-            android:layout_width="120sp"
-            android:text="ParteEntera:" />
 
-        <EditText
-            android:id="@+id/editText_numero"
-            android:layout_gravity="fill_horizontal"
-            android:hint="numero"
-            android:inputType="number"
-            android:minHeight="48dp" />
-
-        <TextView
-            android:id="@+id/textView_residuo"
-            android:layout_width="120sp"
-            android:text="Residuo:" />
-
-        <EditText
-            android:id="@+id/editText_residuo"
-            android:layout_gravity="fill_horizontal"
-            android:hint="residuo"
-            android:inputType="number"
-            android:minHeight="48dp" />
 
         <TextView
             android:id="@+id/textView_NumInvertido"
