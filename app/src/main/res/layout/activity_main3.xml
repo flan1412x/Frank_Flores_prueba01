@@ -30,8 +30,12 @@
         <EditText
             android:id="@+id/editText_nombre"
             android:layout_gravity="fill_horizontal"
+            android:clickable="false"
+            android:editable="false"
+            android:focusable="false"
             android:hint="nombre"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:text="Frank" />
 
         <TextView
             android:id="@+id/textView_apellido"
@@ -41,8 +45,12 @@
         <EditText
             android:id="@+id/editText_apellido"
             android:layout_gravity="fill_horizontal"
+            android:clickable="false"
+            android:editable="false"
+            android:focusable="false"
             android:hint="apellido"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:text="Flores" />
 
         <TextView
             android:id="@+id/textView_dividendo"

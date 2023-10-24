@@ -52,6 +52,9 @@
             android:text="Divisor:" />
 
         <EditText
+            android:clickable="false"
+            android:focusable="false"
+            android:editable="false"
             android:id="@+id/editText_dividendo"
             android:layout_gravity="fill_horizontal"
             android:hint="dividendo"
@@ -64,6 +67,9 @@
             android:text="Dividendo:" />
 
         <EditText
+            android:clickable="false"
+            android:focusable="false"
+            android:editable="false"
             android:id="@+id/editText_divisor"
             android:layout_gravity="fill_horizontal"
             android:hint="divisor"
@@ -76,6 +82,9 @@
             android:text="NumInvertido:" />
 
         <EditText
+            android:clickable="false"
+            android:focusable="false"
+            android:editable="false"
             android:id="@+id/editText_NumInvertido"
             android:layout_gravity="fill_horizontal"
             android:hint="NumInvertido"
