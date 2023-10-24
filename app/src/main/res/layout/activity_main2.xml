@@ -25,82 +25,84 @@
         <TextView
             android:id="@+id/textView_nombre"
             android:layout_width="120sp"
-            android:text="nombre" />
+            android:text="Nombre:" />
 
         <EditText
             android:id="@+id/editText_nombre"
             android:layout_gravity="fill_horizontal"
-            android:hint="editText_nombre"
-            android:minHeight="48dp" />
+            android:hint="nombre"
+            android:minHeight="48dp"
+            android:text="Frank" />
 
         <TextView
             android:id="@+id/textView_apellido"
             android:layout_width="120sp"
-            android:text="apellido" />
+            android:text="Apellido:" />
 
         <EditText
             android:id="@+id/editText_apellido"
             android:layout_gravity="fill_horizontal"
-            android:hint="editText_apellido"
-            android:minHeight="48dp" />
+            android:hint="apellido"
+            android:minHeight="48dp"
+            android:text="Flores" />
 
         <TextView
             android:id="@+id/textView_dividendo"
             android:layout_width="120sp"
-            android:text="divisor" />
+            android:text="Divisor:" />
 
         <EditText
             android:id="@+id/editText_dividendo"
             android:layout_gravity="fill_horizontal"
-            android:hint="editText_dividendo"
+            android:hint="dividendo"
             android:inputType="number"
             android:minHeight="48dp" />
 
         <TextView
             android:id="@+id/textView_divisor"
             android:layout_width="120sp"
-            android:text="dividendo" />
+            android:text="Dividendo:" />
 
         <EditText
             android:id="@+id/editText_divisor"
             android:layout_gravity="fill_horizontal"
-            android:hint="editText_divisor"
+            android:hint="divisor"
             android:inputType="number"
             android:minHeight="48dp" />
 
         <TextView
             android:id="@+id/textView_numero"
             android:layout_width="120sp"
-            android:text="ParteEntera" />
+            android:text="ParteEntera:" />
 
         <EditText
             android:id="@+id/editText_numero"
             android:layout_gravity="fill_horizontal"
-            android:hint="editText_numero"
+            android:hint="numero"
             android:inputType="number"
             android:minHeight="48dp" />
 
         <TextView
             android:id="@+id/textView_residuo"
             android:layout_width="120sp"
-            android:text="Residuo" />
+            android:text="Residuo:" />
 
         <EditText
             android:id="@+id/editText_residuo"
             android:layout_gravity="fill_horizontal"
-            android:hint="editText_residuo"
+            android:hint="residuo"
             android:inputType="number"
             android:minHeight="48dp" />
 
         <TextView
             android:id="@+id/textView_NumInvertido"
             android:layout_width="120sp"
-            android:text="NumInvertido" />
+            android:text="NumInvertido:" />
 
         <EditText
             android:id="@+id/editText_NumInvertido"
             android:layout_gravity="fill_horizontal"
-            android:hint="editText_NumInvertido"
+            android:hint="NumInvertido"
             android:inputType="number"
             android:minHeight="48dp" />
 
